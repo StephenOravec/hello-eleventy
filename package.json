@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/StephenOravec/hello-eleventy/issues"
   },
-  "homepage": "https://github.com/StephenOravec/hello-eleventy#readme"
+  "homepage": "https://github.com/StephenOravec/hello-eleventy#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
 }
