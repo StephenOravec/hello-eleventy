@@ -11,6 +11,14 @@
     </header>
     <main>
         {{ content }}
+        {% if tags %}
+            <p><strong>Tags:</strong> 
+                {% for tag in tags %}
+                    <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+                {% endfor %}
+            </p>
+        {% endif %}
+
     </main>
 </body>
 </html>
