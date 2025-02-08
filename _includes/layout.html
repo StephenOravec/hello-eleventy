@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    {% include "header.html" %}
-        <h1>{{ title | default: "Hello, Eleventy!" }}</h1>
- 
+{% include "header.html" %}
+
     <main>
+        <h2>{{ title | default: "Hello, Eleventy!" }}</h2>
         {{ content }}
     </main>
 </body>

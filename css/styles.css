@@ -7,3 +7,17 @@ body {
 a {
     color: skyblue;
 }
+
+header {
+    background-color: #333;
+    padding: 20px;
+   
+    margin-bottom: 20px; /* Space between the header and the content */
+    border-radius: 10px; /* Optional: to round the corners of the header */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}

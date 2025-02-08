@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <header>
-        <h1>{{ title }}</h1>
-    </header>
+{% include "header.html" %}
+        
+
     <main>
+        <h2>{{ title }}</h2>
         {{ content }}
         {% if tags %}
             <p><strong>Tags:</strong> 
