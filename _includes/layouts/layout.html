@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-{% include "header.html" %}
+    <header class="header">
+        {% include "header.html" %}
+    </header>
 
-    <main>
-        <h1>Home Page Title</h1>
-        {{ content }}
-    </main>
+    <div class="wrapper">
+        <main>
+            <h1>Home Page Title</h1>
+            {{ content }}
+        </main>
+    </div>
 
-{% include "footer.html" %}
+    <footer class="footer">
+        {% include "footer.html" %}
+    </footer>
 </body>
 </html>
