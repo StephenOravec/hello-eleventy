@@ -10,10 +10,9 @@ a {
 
 header {
     background-color: #333;
-    padding: 20px;
-   
-    margin-bottom: 20px; /* Space between the header and the content */
-    border-radius: 10px; /* Optional: to round the corners of the header */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 header h1 {
