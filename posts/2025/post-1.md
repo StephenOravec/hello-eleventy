@@ -8,4 +8,6 @@ permalink: "/hello-world/"
 featuredImage: ""
 tags: ["eleventy"]
 ---
-Content of first post
+Hello, World!
+
+This is my first post!
