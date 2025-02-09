@@ -14,6 +14,12 @@
     <div class="post-wrapper">
         <main>
             <h2>{{ title }}</h2>
+
+
+                {% if date %}
+                    <p><strong>Published on:</strong> {{ date | date: "%B %d, %Y" }}</p>
+                {% endif %}
+
                 {{ content }}
                 {% if tags %}
                     <p><strong>Tags:</strong> 
