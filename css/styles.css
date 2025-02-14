@@ -15,7 +15,7 @@ a {
 /* Header */
 
 .header {
-    background: linear-gradient(-10deg, #4b000f, #800020, #b3002d, #800020, #4b000f);
+    background: linear-gradient(135deg, #800020, #990026, #b3002d, #990026, #800020);
     background-size: 200% 200%;
     background-blend-mode: multiply;
     padding: 25px;
@@ -108,7 +108,7 @@ a {
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
-    background: linear-gradient(10deg, #4b000f, #800020, #b3002d, #800020, #4b000f);
+    background: linear-gradient(135deg, #800020, #990026, #b3002d, #990026, #800020);
     background-size: 200% 200%;
     background-blend-mode: multiply;
     border-radius: 0px;
