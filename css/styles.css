@@ -41,13 +41,10 @@ a {
     box-sizing: border-box;
 }
 
+/* <h1> on Home page */
+
 .home-title {
     text-align: center;
-}
-
-.page-title {
-    text-align: center;
-    color: #815469;
 }
 
 
@@ -95,6 +92,15 @@ a {
 .blog-card:hover, .fiction-card:hover {
     transform: scale(1.03);
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.1);
+}
+
+/* Pages */
+
+/* <h1> on pages other than home */
+
+.page-title {
+    text-align: center;
+    color: #815469;
 }
 
 /* Blog posts */
