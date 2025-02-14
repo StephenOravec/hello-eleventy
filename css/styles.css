@@ -56,9 +56,20 @@ a {
     padding: 20px;
 }
 
+/* Card Unique Styles */
+
+.blog-card {
+    background-color: #333;
+}
+
+.fiction-card {
+    background-color: #0047AB;
+}
+
+/* Card Shared Styles */
+
 .blog-card {
     display: inline-block;
-    background-color: #333;
     color: white;
     padding: 20px;
     border-radius: 15px;
