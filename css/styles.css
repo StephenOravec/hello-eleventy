@@ -31,6 +31,10 @@ a {
     box-sizing: border-box;
 }
 
+.home-title {
+    text-align: center;
+}
+
 .post-wrapper {
     flex: 1;
     padding-left: 20px;
