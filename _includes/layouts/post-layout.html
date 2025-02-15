@@ -18,12 +18,13 @@
 
 
                 {% if date %}
-                    <p><strong>Published on:</strong> {{ date | date: "%B %d, %Y" }}</p>
+                    <p>{{ date | date: "%B %d, %Y" }}</p>
                 {% endif %}
 
                 {{ content }}
+                <hr>
                 {% if tags %}
-                    <p><strong>Tags:</strong> 
+                    <p>Filed in:
                         {% for tag in tags %}
                     <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
                         {% endfor %}
