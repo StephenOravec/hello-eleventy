@@ -9,7 +9,7 @@ summary: "" # Summary of post for display on site
 description: "" # 150 characters for search engines
 permalink: "/hello-world/"
 featuredImage: ""
-tags: ["eleventy"] # "post" tag set in posts.json
+tags: ["genesis"] # "post" tag set in posts.json
 ---
 Hello, World!
 
