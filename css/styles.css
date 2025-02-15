@@ -26,10 +26,15 @@ a {
                 0 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+/* Title of website as it appears in header */
 .header h2 {
     margin: 0;
     font-size: 30px;
-    color: #ffffff;
+}
+
+.header a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 
