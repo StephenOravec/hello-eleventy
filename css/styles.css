@@ -57,7 +57,7 @@ a {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     justify-content: center;
     padding: 20px;
@@ -73,28 +73,32 @@ a {
     background-color: #0047AB;
 }
 
+.photography-card {
+    background-color: #47AB00;
+}
+
 /* Card Shared Styles */
 
-.blog-card, .fiction-card {
+.blog-card, .fiction-card, .photography-card {
     display: inline-block;
     color: white;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-.blog-card a, .fiction-card a {
+.blog-card a, .fiction-card a, .photography-card a {
     color: white;
     text-decoration: none;
     display: block;
     padding: 20px;
 }
 
-.blog-card:hover, .fiction-card:hover {
+.blog-card:hover, .fiction-card:hover, .photography-card:hover {
     transform: scale(1.03);
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.1);
 }
